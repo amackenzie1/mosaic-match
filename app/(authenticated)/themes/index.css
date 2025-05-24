@@ -4,7 +4,6 @@
 
 @layer base {
   :root {
-    /* Default light theme variables */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -30,6 +29,25 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    
+    /* Color opacity variants */
+    --chart-1-90: hsl(var(--chart-1) / 0.9);
+    --chart-1-70: hsl(var(--chart-1) / 0.7);
+    --chart-1-50: hsl(var(--chart-1) / 0.5);
+    --chart-2-90: hsl(var(--chart-2) / 0.9);
+    --chart-2-70: hsl(var(--chart-2) / 0.7);
+    --chart-2-50: hsl(var(--chart-2) / 0.5);
+    --chart-3-90: hsl(var(--chart-3) / 0.9);
+    --chart-3-85: hsl(var(--chart-3) / 0.85);
+    --chart-3-70: hsl(var(--chart-3) / 0.7);
+    --chart-3-55: hsl(var(--chart-3) / 0.55);
+    --chart-3-40: hsl(var(--chart-3) / 0.4);
+    --chart-4-90: hsl(var(--chart-4) / 0.9);
+    --chart-4-70: hsl(var(--chart-4) / 0.7);
+    --chart-4-50: hsl(var(--chart-4) / 0.5);
+    --chart-5-90: hsl(var(--chart-5) / 0.9);
+    --chart-5-70: hsl(var(--chart-5) / 0.7);
+    --chart-5-50: hsl(var(--chart-5) / 0.5);
   }
 
   .dark {
