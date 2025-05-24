@@ -1,0 +1,80 @@
+[data-theme="gaia"] {
+  --background: 0 0% 100%;
+  --foreground: 36 45% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 36 45% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 36 45% 15%;
+  --primary: 36 45% 70%;
+  --primary-foreground: 36 45% 11%;
+  --secondary: 36 35% 95%;
+  --secondary-foreground: 36 45% 25%;
+  --accent: 36 64% 57%;
+  --accent-foreground: 36 72% 17%;
+  --destructive: 0 84% 37%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 36 33% 95%;
+  --muted-foreground: 36 45% 45%;
+  --border: 36 45% 87%;
+  --input: 36 45% 87%;
+  --ring: 36 45% 70%;
+  --chart-1: 36 95% 32%;
+  --chart-2: 48 100% 50%;
+  --chart-3: 28 40% 40%;
+  --chart-4: 31 41% 48%;
+  --chart-5: 35 43% 53%;
+}
+
+[data-theme="gaia"].light {
+  --background: 0 0% 100%;
+  --foreground: 36 45% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 36 45% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 36 45% 15%;
+  --primary: 36 45% 70%;
+  --primary-foreground: 36 45% 11%;
+  --secondary: 36 35% 95%;
+  --secondary-foreground: 36 45% 25%;
+  --accent: 36 64% 57%;
+  --accent-foreground: 36 72% 17%;
+  --destructive: 0 84% 37%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 36 33% 95%;
+  --muted-foreground: 36 45% 45%;
+  --border: 36 45% 87%;
+  --input: 36 45% 87%;
+  --ring: 36 45% 70%;
+  --chart-1: 36 95% 32%;
+  --chart-2: 48 100% 50%;
+  --chart-3: 28 40% 40%;
+  --chart-4: 31 41% 48%;
+  --chart-5: 35 43% 53%;
+}
+
+[data-theme="gaia"].dark {
+  --background: 240 10% 3.9%;
+  --foreground: 36 15% 90%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 36 15% 90%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 36 15% 90%;
+  --primary: 36 45% 70%;
+  --primary-foreground: 36 45% 11%;
+  --secondary: 36 25% 15%;
+  --secondary-foreground: 36 45% 90%;
+  --accent: 36 44% 57%;
+  --accent-foreground: 36 42% 90%;
+  --destructive: 0 84% 37%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 36 23% 15%;
+  --muted-foreground: 36 25% 65%;
+  --border: 36 25% 15%;
+  --input: 36 25% 15%;
+  --ring: 36 45% 70%;
+  --chart-1: 36 95% 55%;
+  --chart-2: 48 100% 70%;
+  --chart-3: 28 40% 70%;
+  --chart-4: 31 41% 78%;
+  --chart-5: 35 43% 83%;
+}

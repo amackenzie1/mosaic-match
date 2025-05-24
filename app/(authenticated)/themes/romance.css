@@ -1,0 +1,80 @@
+[data-theme="romance"] {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+  --primary: 342 75% 45%; /* Deep romantic red */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 96%; /* Clean light gray */
+  --secondary-foreground: 240 10% 3.9%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 240 10% 40%;
+  --accent: 342 30% 96%; /* Very light pink */
+  --accent-foreground: 240 10% 3.9%;
+  --destructive: 0 90% 45%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 342 75% 45%;
+  --chart-1: 342 90% 50%; /* Vibrant rose red */
+  --chart-2: 290 65% 55%; /* Soft lavender purple */
+  --chart-3: 15 85% 55%; /* Warm coral */
+  --chart-4: 320 75% 50%; /* Muted magenta */
+  --chart-5: 0 85% 45%; /* Pure red */
+}
+
+[data-theme="romance"].light {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+  --primary: 342 75% 45%; /* Deep romantic red */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 96%; /* Clean light gray */
+  --secondary-foreground: 240 10% 3.9%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 240 10% 40%;
+  --accent: 342 30% 96%; /* Very light pink */
+  --accent-foreground: 240 10% 3.9%;
+  --destructive: 0 90% 45%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 342 75% 45%;
+  --chart-1: 342 90% 50%; /* Vibrant rose red */
+  --chart-2: 290 65% 55%; /* Soft lavender purple */
+  --chart-3: 15 85% 55%; /* Warm coral */
+  --chart-4: 320 75% 50%; /* Muted magenta */
+  --chart-5: 0 85% 45%; /* Pure red */
+}
+
+[data-theme="romance"].dark {
+  --background: 240 10% 3.9%; /* Clean dark background */
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 342 85% 65%; /* Bright romantic red */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 90% 45%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 342 85% 65%;
+  --chart-1: 342 90% 65%; /* Bright rose red */
+  --chart-2: 290 65% 70%; /* Bright soft lavender */
+  --chart-3: 15 90% 65%; /* Bright coral */
+  --chart-4: 320 75% 65%; /* Bright magenta */
+  --chart-5: 0 90% 65%; /* Bright red */
+}

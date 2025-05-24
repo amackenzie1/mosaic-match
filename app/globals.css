@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 221.2 83.2% 53.3%;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 217.2 91.2% 59.8%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-thin py-2 px-4 rounded-full transition-all duration-300 ease-in-out;
+}
+
+.btn-gradient:hover {
+  @apply from-blue-600 to-cyan-600;
+}
+
+.tessera-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-500 to-fuchsia-500;
+}
+
+.tessera-btn-gradient {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-600 to-fuchsia-600 text-white font-thin py-2 px-4 rounded-full transition-all duration-300 ease-in-out;
+}
+
+.tessera-btn-gradient:hover {
+  @apply from-indigo-600 via-purple-700 to-fuchsia-700;
+}
+
+.content-wrapper {
+  @apply relative z-10 backdrop-blur-sm bg-black/30 rounded-lg p-6 shadow-lg;
+}
+
+.card-backdrop {
+  @apply bg-black/50 backdrop-blur-md border border-indigo-900/30;
+}
+
+/* Phone frame styles to prevent corner leaking */
+.phone-frame {
+  @apply relative overflow-hidden rounded-[32px] border-2;
+  mask-image: radial-gradient(white, black);
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.phone-frame-content {
+  @apply absolute inset-0 overflow-hidden;
+  border-radius: inherit;
+}
+
+/* Prevent scrollbar issues in carousels */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Container centering utilities */
+.centered-content {
+  @apply mx-auto text-center flex flex-col items-center justify-center;
+}
+
+/* Animation delay utilities for loading spinners */
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-450 {
+  animation-delay: 450ms;
+}
+
+/* Simple border pulsing animation */
+.pulse-animation {
+  animation: simple-pulse 3s infinite;
+}
+
+@keyframes simple-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0);
+  }
+}
